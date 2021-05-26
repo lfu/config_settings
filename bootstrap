@@ -5,5 +5,5 @@
 
 
 #cd ./setup_scripts
-./config_setup.sh
-./repo-setup.sh
+config_setup.sh
+repo-setup.sh
