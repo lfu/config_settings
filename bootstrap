@@ -3,11 +3,6 @@
 # Commented out until I figure out how to handle Github API key so this can be automated
 #./setup_scripts/set_up_ssh.sh
 
-
-cd ~/katello
-git remote add origin git@github.com:lfu/katello.git
-git remote add master https://github.com/katello/katello.git
-
-#cd setup_scripts
-config_setup.sh
-repo_setup.sh
+cd setup_scripts
+./config_setup.sh
+./repo_setup.sh
